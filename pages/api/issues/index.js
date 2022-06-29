@@ -8,7 +8,7 @@ export default async function handle(req, res) {
 
     const response = await octokit.request("GET /search/issues", { q });
     const results = response.data.items.map((items) => ({
-        name: items.title,
+        title: items.title,
         author: items.user.login,
         labels: items.labels.map((label) =>label.name),
         url: items.html_url

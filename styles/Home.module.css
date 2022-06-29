@@ -5,7 +5,8 @@
 .container {
   font-size: 13px;
   height: 100vh;
-  background: url('https://images.unsplash.com/photo-1542332213-31f87348057f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background: url('https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Nature-Aesthetic-Wallpaper-HD.png');
+  /* background: url('https://images.unsplash.com/photo-1542332213-31f87348057f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,22 +19,15 @@
   background-blend-mode: overlay;
 }
 
-
 .footer {
   display: flex;
-  flex: 1;
+  /* flex: 1; */
+  margin: 5rem;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  font-size: 1.5em;
 }
 
 
@@ -56,9 +50,8 @@
   font-size: 1rem;
 }
 
-
-
 .containerglass,
+.footer,
 .containerglass::before,
 .containerglass::after {
   border-radius: 7px;
@@ -66,17 +59,21 @@
   backdrop-filter: blur(3px);
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
 }
-.containerglass {
+
+.containerglass,
+.footer {
   position: relative;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   width: 100%;
   max-width: 400px;
 }
+
 .containerglass::before,
 .containerglass::after {
   content: '';
   position: absolute;
 }
+
 .containerglass::before {
   height: 80px;
   width: 80px;
@@ -84,6 +81,7 @@
   left: -40px;
   z-index: -1;
 }
+
 .containerglass::after {
   height: 40px;
   width: 40px;
@@ -99,36 +97,39 @@
 
 .containerglass .main {
   font-size: 1.01rem;
-  color: #DDD;
+  color: rgb(255, 255, 255);
   margin: 2rem 0;
   text-align: justify;
 }
 
 .containerglass .text {
   font-size: 1.01rem;
-  color: #DDD;
+  color: rgb(255, 255, 255);
   margin: 2rem 0;
   text-align: justify;
 }
 
-.containerglass .btn {
-  display: block;
-  margin: auto;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.02rem;
-  width: 80%;
-  max-width: 200px;
-  padding: .6rem 1rem;
-  background-color: transparent;
-  border: 1px solid #ffdd00;
-  border-radius: 5px;
-  color: #ffdd00;
+.glassBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  letter-spacing: 2px;
   cursor: pointer;
-  transition: all .2s linear;
+  text-transform: uppercase;
 }
-.containerglass .btn:hover {
-  background-color: #ffdd00;
-  color: #333;
+
+.glassBtn:hover {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(169, 169, 169, 0.405);
 }
 
 
