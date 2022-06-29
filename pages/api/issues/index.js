@@ -1,8 +1,7 @@
 // api/issues
-
 import { Octokit } from "octokit";
 
-export default async function handle(req, res) {
+export default async function handler(req, res) {
     const octokit = new Octokit();
     const q = "is:open is:issue label:good-first-issue"
 
