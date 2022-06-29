@@ -14,6 +14,7 @@ export default function Home({ data }) {
       <Head>
         <title>Daily Issues</title>
         <meta name="description" content="GitHub: Good-First-Issue" />
+        <meta name="viewport" content="width=device-width, user-scalable=no"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <div className={styles.containerglass}>

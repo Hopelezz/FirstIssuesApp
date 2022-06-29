@@ -2,8 +2,8 @@
   font-size: 13px;
   height: 100vh;
   background: url('https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Nature-Aesthetic-Wallpaper-HD.png');
-  /* background: url('https://images.unsplash.com/photo-1542332213-31f87348057f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); */
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   display: flex;  
@@ -129,9 +129,9 @@
 }
 
 
-@media (max-width: 532px) {
-  .grid {
+@media (max-width: 320px) {
+  .container {
     width: 100%;
-    flex-direction: column;
   }
 }
+
