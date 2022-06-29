@@ -106,7 +106,7 @@ First thing you're going to need is Node.js This will provide you with `npm: Nod
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-I intend for this to be used for people are are interested in open source. The Good-First-Issue tag on GitHub is a great place to start. Sometimes as a new beginner this can be hard to find. This app is meant to be an easy way to to filter the noise.
+I intend for this to be for people who are interested in open source. The Good-First-Issue tag on GitHub is a great place to start. Sometimes as a new beginner this can be hard to find. This app is meant to be an easy way to highlight those first issues.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
