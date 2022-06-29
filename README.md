@@ -117,7 +117,7 @@ I intend for this to be used for people are are interested in open source. The G
 * [ ] Background that changes.
 * [ ] Using SolidJS or Astro instead of Next.js
 
-See the [open issues](https://github.com/Hopelzz/FirstIssuesApp/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Hopelezz/FirstIssuesApp/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -165,9 +165,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Hopelzz1](https://twitter.com/Hopelzz1) - panzerlink@gmail.com
+Your Name - [@Hopelezz1](https://twitter.com/Hopelezz1) - panzerlink@gmail.com
 
-Project Link: [https://github.com/Hopelzz/FirstIssuesApp](https://github.com/Hopelzz/FirstIssuesApp)
+Project Link: [https://github.com/Hopelezz/FirstIssuesApp](https://github.com/Hopelezz/FirstIssuesApp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -181,16 +181,16 @@ Project Link: [https://github.com/Hopelzz/FirstIssuesApp](https://github.com/Hop
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Hopelzz/FirstIssuesApp.svg?style=for-the-badge
-[contributors-url]: https://github.com/Hopelzz/FirstIssuesApp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Hopelzz/FirstIssuesApp.svg?style=for-the-badge
-[forks-url]: https://github.com/Hopelzz/FirstIssuesApp/network/members
-[stars-shield]: https://img.shields.io/github/stars/Hopelzz/FirstIssuesApp.svg?style=for-the-badge
-[stars-url]: https://github.com/Hopelzz/FirstIssuesApp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Hopelzz/FirstIssuesApp.svg?style=for-the-badge
-[issues-url]: https://github.com/Hopelzz/FirstIssuesApp/issues
-[license-shield]: https://img.shields.io/github/license/Hopelzz/FirstIssuesApp.svg?style=for-the-badge
-[license-url]: https://github.com/Hopelzz/FirstIssuesApp/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Hopelezz/FirstIssuesApp.svg?style=for-the-badge
+[contributors-url]: https://github.com/Hopelezz/FirstIssuesApp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Hopelezz/FirstIssuesApp.svg?style=for-the-badge
+[forks-url]: https://github.com/Hopelezz/FirstIssuesApp/network/members
+[stars-shield]: https://img.shields.io/github/stars/Hopelezz/FirstIssuesApp.svg?style=for-the-badge
+[stars-url]: https://github.com/Hopelezz/FirstIssuesApp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Hopelezz/FirstIssuesApp.svg?style=for-the-badge
+[issues-url]: https://github.com/Hopelezz/FirstIssuesApp/issues
+[license-shield]: https://img.shields.io/github/license/Hopelezz/FirstIssuesApp.svg?style=for-the-badge
+[license-url]: https://github.com/Hopelezz/FirstIssuesApp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mark-spratt
 [product-screenshot]: images/screenshot.png
