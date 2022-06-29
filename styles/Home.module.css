@@ -48,7 +48,8 @@
 .containerglass,
 .footer,
 .containerglass::before,
-.containerglass::after {
+.containerglass::after,
+.footer::after {
   border-radius: 7px;
   background-color: rgba(255, 255, 255, .2);
   backdrop-filter: blur(3px);
@@ -64,25 +65,34 @@
 }
 
 .containerglass::before,
-.containerglass::after {
+.containerglass::after,
+.footer::after {
   content: '';
   position: absolute;
 }
 
 .containerglass::before {
-  height: 80px;
+  height: 70px;
   width: 80px;
-  top: -10px;
+  top: -35px;
   left: -40px;
   z-index: -1;
 }
 
 .containerglass::after {
   height: 40px;
-  width: 40px;
-  bottom: 20px;
-  right: -10px;
+  width: 50px;
+  bottom: -20px;
+  right: -20px;
   z-index: 2;
+}
+
+.footer::after {
+  height: 25px;
+  width: 40px;
+  bottom: 45px;
+  right: 420px;
+  z-index: 0;
 }
 
 /* Text */
