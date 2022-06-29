@@ -28,7 +28,7 @@ export default function Home({ data }) {
           <a className={styles.glassBtn} href={ data.url }>To The Repo!</a>
         </div>
 
-      <footer className={styles.footer}>Powered by Open Source</footer>
+      <footer className={styles.footer}><a href="https://github.com/Hopelezz/FirstIssuesApp">Powered by Open Source</a></footer>
     </div>
   );
 }
