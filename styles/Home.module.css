@@ -1,7 +1,3 @@
-/* .container {
-  padding: 0 2rem;
-} */
-
 .container {
   font-size: 13px;
   height: 100vh;
@@ -21,7 +17,6 @@
 
 .footer {
   display: flex;
-  /* flex: 1; */
   margin: 5rem;
   padding: 2rem 0;
   justify-content: center;
@@ -29,7 +24,6 @@
   color: white;
   font-size: 1.5em;
 }
-
 
 .title {
   margin: 0;
@@ -47,9 +41,10 @@
 .description {
   margin: 1rem 0;
   line-height: 1;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
+/* Glass Pane */
 .containerglass,
 .footer,
 .containerglass::before,
@@ -63,9 +58,9 @@
 .containerglass,
 .footer {
   position: relative;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .containerglass::before,
@@ -90,25 +85,16 @@
   z-index: 2;
 }
 
-.containerglass .img {
-  width: 100%;
-  border-radius: 7px;
-}
-
-.containerglass .main {
-  font-size: 1.01rem;
-  color: rgb(255, 255, 255);
-  margin: 2rem 0;
-  text-align: justify;
-}
-
+/* Text */
 .containerglass .text {
-  font-size: 1.01rem;
+  font-size: 1.2rem;
   color: rgb(255, 255, 255);
-  margin: 2rem 0;
-  text-align: justify;
+  margin: 1.5rem 0;
+  text-align: left;
+  line-height: 1;
 }
 
+/* Button */
 .glassBtn {
   display: flex;
   justify-content: center;
@@ -133,7 +119,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 532px) {
   .grid {
     width: 100%;
     flex-direction: column;
