@@ -18,21 +18,26 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Daily Issues</h1>
-
-        <p>
-          {data.title} ({data.author})
-        </p>
-        <p>{data.labels.join(", ")}</p>
-
+      <body>
+        <div className={styles.containerglass}>
+      
+      {/* <main className={styles.main}> */}
+        <h1 className={styles.title}>Looking for a Good First Issue?</h1>
+        <p className={styles.description}>If you refresh the page you should be able to see new Repos.  </p>
+      <ul>
+        <p className={styles.text}>RepoName: {data.title}</p>
+        <p className={styles.text}>Name: { data.author }</p>
+        <p className={styles.text}>Labels: {data.labels.join(", ")}</p>
+      </ul>
 
        
-    <a class="btn" href={ data.url }>To The Repo!</a>
+    <a className={styles.btn} href={ data.url }>To The Repo!</a>
 
-      </main>
+      {/*   </main> */}
+      </div>  {/* Container-glass*/}
 
       <footer className={styles.footer}>Powered by Open Source</footer>
+      </body>
     </div>
   );
 }
