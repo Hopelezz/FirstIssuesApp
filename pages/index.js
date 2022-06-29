@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/issues`);
+  const res = await fetch(`.api/issues`);
   const data = await res.json();
 
   return { props: { data } };
